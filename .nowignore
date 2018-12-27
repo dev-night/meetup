@@ -1,0 +1,9 @@
+README.md
+LICENSE
+Dockerfile
+Makefile
+.env
+.env-example
+.gitignore
+.vscode/*
+__pycache__/*
