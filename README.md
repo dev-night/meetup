@@ -28,6 +28,12 @@ To reload code changes just `CTRL+C` your current session and use `make run`.
 
 ## Deploy
 
+The [deployment happens automatically](https://zeit.co/blog/now-for-github) if you push to master. This is done through [Now](https://zeit.co/now).
+
+### Manually
+
+To deploy manually use this command:
+
 ```bash
 now && now alias
 ```
