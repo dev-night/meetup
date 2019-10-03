@@ -2,10 +2,6 @@
   "version": 2,
   "name": "meetup-redirecter",
   "regions": ["bru"],
-  "env": {
-    "MEETUP_API_KEY": "@meetup_api_key"
-  },
-  "builds": [{ "src": "*.py", "use": "@now/python" }],
-  "alias": ["meetup.dev-night.io", "m.dev-night.io"],
-  "routes": [{ "src": "^/(.*)", "dest": "/app.py" }]
+  "builds": [{ "src": "index.php", "use": "now-php" }],
+  "alias": ["meetup.dev-night.io", "m.dev-night.io"]
 }
