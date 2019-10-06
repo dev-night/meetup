@@ -39,6 +39,5 @@ now && now alias
 
 ## Todo
 
-- [ ] Create and use an Bot Account for Meetup.com instead of personal account
 - [ ] Add chaching to reduce API calls
 - [ ] Extract API calls out to offer a centralized service
