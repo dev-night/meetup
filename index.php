@@ -26,7 +26,7 @@ function getMeetupUrl(): string
     return $data[0]['link'];
 }
 
-function sendResponse($link)
+function sendResponse($link): void
 {
     header('Content-Type: text/html', true, 200);
     echo <<<EOD
