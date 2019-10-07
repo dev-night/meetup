@@ -6,4 +6,3 @@ Makefile
 .env-example
 .gitignore
 .vscode/*
-__pycache__/*
