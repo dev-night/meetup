@@ -5,7 +5,7 @@
     "index.php": {
       "runtime": "now-php@0.0.8",
       "memory": 3008,
-      "maxDuration": 500
+      "maxDuration": 5
     }
   },
   "routes": [{ "src": "/(.*)", "dest": "/index.php" }],
