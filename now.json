@@ -2,12 +2,12 @@
   "name": "meetup-redirecter",
   "regions": ["bru"],
   "functions": {
-    "index.php": {
+    "api/index.php": {
       "runtime": "now-php@0.0.8",
       "memory": 3008,
       "maxDuration": 5
     }
   },
-  "routes": [{ "src": "/(.*)", "dest": "/index.php" }],
+  "routes": [{ "src": "/(.*)", "dest": "/api/index.php" }],
   "alias": ["meetup.dev-night.io", "m.dev-night.io"]
 }
